@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/t1"
+            android:title="Home"
+            android:icon="@drawable/ic_home_black_24dp"/>
+        <item
+            android:id="@+id/t12"
+            android:title="@string/Session_Reporting"
+            android:icon="@drawable/ic_present_to_all_black_24dp"/>
+        <item
+            android:id="@+id/t4"
+            android:title="@string/Unit_Registration"
+            android:icon="@drawable/ic_library_books_black_24dp"/>
+        <item
+            android:id="@+id/t2"
+            android:title="@string/Registered_Units"
+            android:icon="@drawable/ic_edit_black_24dp"/>
+        <item
+            android:id="@+id/t5"
+            android:title="@string/Exam_Results"
+            android:icon="@drawable/ic_description_black_24dp"/>
+        <item
+            android:id="@+id/t9"
+            android:title="@string/Fees_status"
+            android:icon="@drawable/ic_attach_money_black_24dp"/>
+        <item
+            android:id="@+id/t8"
+            android:title="@string/Fees_StructureProgram"
+            android:icon="@drawable/ic_toc_black_24dp"/>
+        <item
+            android:id="@+id/t7"
+            android:title="@string/View_Bookings"
+            android:icon="@drawable/ic_book_black_24dp"/>
+        <item
+            android:id="@+id/t11"
+            android:title="@string/Book_Hostel"
+            android:icon="@drawable/ic_airline_seat_individual_suite_black_24dp"/>
+
+        <item
+            android:id="@+id/t13"
+            android:title="@string/Regards"
+            android:icon="@drawable/ic_star_border_black_24dp"/>
+    </group>
+
+    <item android:title="more">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+        </menu>
+    </item>
+
+</menu>
